@@ -1,0 +1,147 @@
+.mainpage
+{
+    height:100%;
+    width:100%;
+    background-color: white;
+}
+.topbar
+{
+    position:fixed;
+    display: block;
+    top:0%;
+    width:100%;
+    height:10%;
+    background-color: rgb(115, 119, 119);
+    z-index: 3;
+}
+.midbar
+{
+    position:fixed;
+    top:10%;
+    width:100%;
+    height:10%;
+    background-color: rgb(197, 209, 209);
+    border-style: solid;
+    border-color:black;
+    border-width: thin;
+    z-index: 3;
+}
+.lowbar
+{
+    display: block;
+    position:relative;
+    width:100%;
+    height:100%;
+    overflow:auto;
+    top:20%;
+    left:0%;
+    background-color: rgb(197, 209, 209);
+}
+.cabpool
+{
+    display: block;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    width:30%;
+    height:50%;
+    border-radius: 25px;
+    font-size: 1em;
+    color: wheat;
+    background-color:firebrick;
+    border: none;
+}
+.lostfound
+{
+    display: block;
+    position: absolute;
+    top: 25%;
+    right: 15%;
+    width:30%;
+    height:50%;
+    border-radius: 25px;
+    font-size: 1em;
+    color: wheat;
+    background-color:firebrick;
+    border: none;
+}
+.profilepic
+{
+    display: block;
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    width:5%;
+    height:80%;
+    border-radius: 100px;
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
+}
+.displayname
+{
+    display: block;
+    position: absolute;
+    top: 23%;
+    left: 8%;
+    width:60%;
+    height:50%;
+    font-size: 2em;
+}
+.accedit
+{
+    display: block;
+    position: absolute;
+    top: 75%;
+    left: 8%;
+    width:5%;
+    height:22%;
+    background-color: rgb(13, 76, 192);
+    color: white;
+    border-style: solid;
+}
+.logout
+{
+    display: block;
+    position: absolute;
+    top: 25%;
+    right: 2%;
+    width:7%;
+    height:50%;
+    border-radius: 25px;
+    font-size: 1em;
+    background-color: rgb(13, 76, 192);
+    color: white;
+    border-style: solid;
+}
+.deactivate
+{
+    display: block;
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    width:7%;
+    height:50%;
+    border-radius: 25px;
+    font-size: 1em;
+    background-color: rgb(13, 76, 192);
+    color: white;
+    border-style: solid;
+}
+#admin
+{
+    display: block;
+    position: absolute;
+    top: 25%;
+    right: 18%;
+    width:7%;
+    height:50%;
+    border-radius: 25px;
+    font-size: 1em;
+    background-color: rgb(13, 76, 192);
+    color: white;
+    border-style: solid;
+}
+h1{
+    color: black;
+}

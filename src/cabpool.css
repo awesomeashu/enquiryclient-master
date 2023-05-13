@@ -1,0 +1,25 @@
+.myride
+{
+    position:absolute;
+    display: block;
+    top:20%;
+    right: 1%;
+    width:5%;
+    height:60%;
+    font-size: 1.2em;
+    z-index: 4;
+    border-radius: 10px;
+    background-color:grey;
+    border-style: solid;
+    color:white;
+}
+.displayrides
+{
+    position:absolute;
+    display: block;
+    top:5%;
+    width:100%;
+    height:auto;
+    background-color:none;
+    z-index: 1;
+}
